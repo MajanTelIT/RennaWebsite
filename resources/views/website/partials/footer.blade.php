@@ -4,16 +4,16 @@
           <div class="elementor-widget-wrap elementor-element-populated">
              <div class="elementor-element elementor-element-7c6c7dc elementor-widget elementor-widget-image" data-id="7c6c7dc" data-element_type="widget" data-widget_type="image.default">
                 <div class="elementor-widget-container">
-                 <!--<img decoding="async" width="1700" height="1000" src="https://www.beautygates.com/renna/wp-content/uploads/2023/04/footer-.jpg" class="attachment-full size-full wp-image-254" alt="" loading="lazy" srcset="https://www.beautygates.com/renna/wp-content/uploads/2023/04/footer-.jpg 1700w, https://www.beautygates.com/renna/wp-content/uploads/2023/04/footer--300x176.jpg 300w, https://www.beautygates.com/renna/wp-content/uploads/2023/04/footer--1024x602.jpg 1024w, https://www.beautygates.com/renna/wp-content/uploads/2023/04/footer--768x452.jpg 768w, https://www.beautygates.com/renna/wp-content/uploads/2023/04/footer--1536x904.jpg 1536w" sizes="(max-width: 1700px) 100vw, 1700px" />
-                     <!--<img decoding="async" width="1700" height="1000" src="{{ asset('assets/images/footer.png') }}"> -->
-                   <div class="container">
+                <img decoding="async" width="1700" height="1000" src="https://www.beautygates.com/renna/wp-content/uploads/2023/04/footer-.jpg" class="attachment-full size-full wp-image-254" alt="" loading="lazy" srcset="https://www.beautygates.com/renna/wp-content/uploads/2023/04/footer-.jpg 1700w, https://www.beautygates.com/renna/wp-content/uploads/2023/04/footer--300x176.jpg 300w, https://www.beautygates.com/renna/wp-content/uploads/2023/04/footer--1024x602.jpg 1024w, https://www.beautygates.com/renna/wp-content/uploads/2023/04/footer--768x452.jpg 768w, https://www.beautygates.com/renna/wp-content/uploads/2023/04/footer--1536x904.jpg 1536w" sizes="(max-width: 1700px) 100vw, 1700px" />
+                     <!--<img decoding="async" width="1700" height="1000" src="{{ asset('assets/images/footer.png') }}"> 
+                   <!-- <div class="container">
                     <img src="{{ asset('assets/images/footer.png') }}" alt="Snow" style="width:100%;">
                     <div class="bottom-left">Bottom Left</div>
                     <div class="top-left">Top Left</div>
                     <div class="top-right">Top Right</div>
                     <div class="bottom-right">Bottom Right</div>
                     <div class="centered">Centered</div>
-                  </div>
+                  </div>-->
                                                
                 </div>
              </div>

@@ -7,6 +7,8 @@ use App\Http\Controllers\Controller;
 use App\Banner;
 use App\StaticPages;
 use Response;
+use Illuminate\Support\Facades\DB;
+
 
 
 class PagesController extends Controller
@@ -30,5 +32,19 @@ class PagesController extends Controller
         }
         
         return view('website.pages.index', ['pages' => $pages,'banner' => $banner]);
+    }
+
+	public function DataBundles()
+    {	
+        $results = DB::select('select * from static_pages where id = ?', [1]);
+		//print_r($results[0]);exit;
+        return view('website.data-bundles', ['results' => $results[0]]);
+    }
+
+	public function IndiaBundles()
+    {	
+        $results = DB::select('select * from static_pages where id = ?', [2]);
+		//print_r($results[0]);exit;
+        return view('website.india-bundles', ['results' => $results[0]]);
     }
 }

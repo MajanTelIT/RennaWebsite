@@ -124,7 +124,7 @@
                               <div class="elementor-widget-wrap elementor-element-populated">
                                  <div class="elementor-element elementor-element-334b32a elementor-widget elementor-widget-image" data-id="334b32a" data-element_type="widget" data-widget_type="image.default">
                                     <div class="elementor-widget-container">
-                                       <a href="https://www.beautygates.com/renna/gcc-bundles/">
+                                       <a href="{{ url('website/en/data-bundles')  }}">
                                        <img decoding="async" width="202" height="202" src="https://www.beautygates.com/renna/wp-content/uploads/2023/04/1-5.png" class="elementor-animation-grow attachment-large size-large wp-image-162" alt="" loading="lazy" srcset="https://www.beautygates.com/renna/wp-content/uploads/2023/04/1-5.png 202w, https://www.beautygates.com/renna/wp-content/uploads/2023/04/1-5-150x150.png 150w" sizes="(max-width: 202px) 100vw, 202px" />               </a>
                                     </div>
                                  </div>
@@ -162,7 +162,7 @@
                                  </div>
                                  <div class="elementor-element elementor-element-106ae4a elementor-widget elementor-widget-image" data-id="106ae4a" data-element_type="widget" data-widget_type="image.default">
                                     <div class="elementor-widget-container">
-                                       <a href="https://www.beautygates.com/renna/gcc-bundles/">
+                                      <a href="{{ url('website/en/india/bundles')  }}">
                                        <img decoding="async" width="202" height="202" src="https://www.beautygates.com/renna/wp-content/uploads/2023/04/6.png" class="elementor-animation-grow attachment-large size-large wp-image-168" alt="" loading="lazy" srcset="https://www.beautygates.com/renna/wp-content/uploads/2023/04/6.png 202w, https://www.beautygates.com/renna/wp-content/uploads/2023/04/6-150x150.png 150w" sizes="(max-width: 202px) 100vw, 202px" />               </a>
                                     </div>
                                  </div>

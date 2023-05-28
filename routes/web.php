@@ -116,7 +116,8 @@ Route::group([], function()
             Route::get('/localization/{lang}',                  'website\LanguageController@index');
             Route::get('/languageSwitch/{lang}',                'website\LanguageController@switchLang'); 
             Route::get('/pages/{id}',                           'website\PagesController@index')->name('getPage');
-            //Route::get('/data/bundles',                         'website\PagesController@index');             
+            Route::get('/data/bundles',                         'website\PagesController@DataBundles')->name('DataBundles'); 
+			Route::get('/india/bundles',                         'website\PagesController@IndiaBundles')->name('IndiaBundles');     
     });
     }
 });
