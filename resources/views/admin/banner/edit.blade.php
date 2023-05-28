@@ -76,7 +76,7 @@
 
                         <div class="form-group mb-3">
                             <label for="product-name">Banner URL <span class="text-danger"></span></label>
-                            <input type="text" id="product-name" name="banner_name" class="form-control" placeholder="e.g : Apple iMac" value="{{asset('images/'.$banner->image_path)}}">
+                            <input type="text" id="product-name" name="banner_image" class="form-control" placeholder="e.g : Apple iMac" value="{{asset('images/'.$banner->image_path)}}">
                         </div>
                     </div> <!-- end card-box -->
                     <div class="card-box">

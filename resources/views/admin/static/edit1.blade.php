@@ -18,14 +18,14 @@
                             <ol class="breadcrumb m-0">
                                 <li class="breadcrumb-item"><a href="javascript: void(0);">UBold</a></li>
                                 <li class="breadcrumb-item"><a href="javascript: void(0);">Static Pages</a></li>
-                                <li class="breadcrumb-item active">Add Static page </li>
+                                <li class="breadcrumb-item active">Edit Static page </li>
                             </ol>
                         </div>
-                        <h4 class="page-title">Add Static Page</h4>
+                        <h4 class="page-title">Edit Static Page</h4>
                     </div>
                 </div>
             </div>
-            <form action="{{ route('storeStaticPage')}}" method="post" name="addstatic" id="addstatic" enctype="multipart/form-data" class="form-horizontal form-label-left">
+            <form action="{{ url('admin/update/static/pages',$static->id)}}" method="post" name="editstatic" id="editstatic" enctype="multipart/form-data" class="form-horizontal form-label-left">
             @csrf
 
            @if ($errors->any())
@@ -44,13 +44,13 @@
                                 <div class="form-group row mb-3">
                                     <label for="Username" class="col-3 col-form-label">Title</label>
                                     <div class="col-9">
-                                        <input type="text" id="title" name="title" class="form-control" placeholder="e.g : abc" value=""  name="title">
+                                        <input type="text" id="title" name="title" class="form-control" placeholder="e.g : abc" value="{{ $static->title }}">
                                     </div>
                                 </div>
                                 <div class="form-group row mb-3">
                                     <label for="inputEmail3" class="col-3 col-form-label">URL</label>
                                     <div class="col-9">
-                                        <input type="text" class="form-control" id="url" placeholder="url" name="url" value=" " name="url">
+                                        <input type="text" class="form-control" id="url" placeholder="url" name="url" value="{{ $static->url }}">
                                     </div>
                                 </div>
                             </div> <!-- end card-body-->
@@ -59,7 +59,6 @@
                 </div>
                 <!-- end row --> 
             </div>
-
             <div class="row">
                 <div class="col-12">
                     <div class="card">
@@ -69,7 +68,7 @@
 
                             <!-- basic summernote-->
                        <!--      <div id="summernote-basic"></div> -->
-                       <textarea  id="summernote" name="description"></textarea>
+                       <textarea  id="summernote" name="description">{{ $static->description }}</textarea>
                         </div> <!-- end card-body-->
                     </div> <!-- end card-->
                 </div><!-- end col -->
@@ -83,12 +82,11 @@
 
                             <!-- basic summernote-->
                        <!--      <div id="summernote-basic"></div> -->
-                       <textarea  id="summernote-arabic" name="description_arabic"></textarea>
+                       <textarea  id="summernote-arabic" name="arabic_description">{{ $static->arabic_description }}</textarea>
                         </div> <!-- end card-body-->
                     </div> <!-- end card-->
                 </div><!-- end col -->
             </div>
-
             <div class="row">
                 <div class="col-12">
                     <div class="text-center mb-3">
@@ -112,5 +110,8 @@
 
 @section('scripts')
 
+<script type="text/javascript">
+
+</script>
 
 @endsection

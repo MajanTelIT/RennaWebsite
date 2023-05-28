@@ -32,6 +32,7 @@
         <link href="{{ asset('assets/libs/quill/quill.snow.css')}}" rel="stylesheet" type="text/css" />
         <link href="{{ asset('assets/libs/summernote/summernote-bs4.min.css')}}" rel="stylesheet" type="text/css" />
 
+
     </head>
      @yield('stylesheet') 
      <body class="loading">
@@ -117,6 +118,7 @@
 
         <!-- Init js -->
         <script src="{{ asset('assets/js/pages/form-summernote.init.js') }}"></script>
+		<script src="{{ asset('assets/js/dataTables.editor.min.js') }}"></script>
         <script type="text/javascript">
 
             $('#summernote').summernote({

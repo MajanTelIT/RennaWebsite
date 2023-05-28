@@ -89,7 +89,7 @@
                                         <td>{{ $B->updated_at }}</td>
                                         <td class="column-wrap">
                                   
-                                           <a href="{{ url('edit/banner/'.$B->id) }}" class="btn btn-warning"><i class="fa fa-pencil-square-o" aria-hidden="true"> Edit</i></a>
+                                           <a href="{{ url('admin/edit/banner/'.$B->id) }}" class="btn btn-warning"><i class="fa fa-pencil-square-o" aria-hidden="true"> Edit</i></a>
                                        
                                         @if($B->status==1)
                                         <button onclick="Bannerblock('{{$B->id}}')" class="btn btn-primary"><i class="fa fa-lock" aria-hidden="true"></i>Enable</button>                                       

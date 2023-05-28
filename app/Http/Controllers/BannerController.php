@@ -124,6 +124,7 @@ class BannerController extends Controller
         $banner = Banner::find($id);
         $banner->banner_name = $request->banner_name;
         $banner->meta_title = $request->meta_title;
+		$banner->banner_image=public_path('/images/');
         $banner->meta_description = $request->meta_description;
         $banner->meta_keywords = $request->meta_keywords;
         $banner->status = $request->status;
