@@ -117,7 +117,11 @@ Route::group([], function()
             Route::get('/languageSwitch/{lang}',                'website\LanguageController@switchLang'); 
             Route::get('/pages/{id}',                           'website\PagesController@index')->name('getPage');
             Route::get('/data/bundles',                         'website\PagesController@DataBundles')->name('DataBundles'); 
-			Route::get('/india/bundles',                         'website\PagesController@IndiaBundles')->name('IndiaBundles');     
+			Route::get('/india/bundles',                        'website\PagesController@IndiaBundles')->name('IndiaBundles');
+			Route::get('/gcc/bundles',							'website\PagesController@DataBundles')->name('DataBundles'); 
+			Route::get('/international/bundles',                'website\PagesController@IndiaBundles')->name('IndiaBundles');    
+			Route::get('/combo/bundles',                        'website\PagesController@DataBundles')->name('DataBundles'); 
+			Route::get('/national/bundles',                     'website\PagesController@IndiaBundles')->name('IndiaBundles');    
     });
     }
 });

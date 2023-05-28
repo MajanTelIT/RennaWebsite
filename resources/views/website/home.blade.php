@@ -124,13 +124,13 @@
                               <div class="elementor-widget-wrap elementor-element-populated">
                                  <div class="elementor-element elementor-element-334b32a elementor-widget elementor-widget-image" data-id="334b32a" data-element_type="widget" data-widget_type="image.default">
                                     <div class="elementor-widget-container">
-                                       <a href="{{ url('website/en/data-bundles')  }}">
+                                       <a href="{{ url('website/en/pages/1')  }}">
                                        <img decoding="async" width="202" height="202" src="https://www.beautygates.com/renna/wp-content/uploads/2023/04/1-5.png" class="elementor-animation-grow attachment-large size-large wp-image-162" alt="" loading="lazy" srcset="https://www.beautygates.com/renna/wp-content/uploads/2023/04/1-5.png 202w, https://www.beautygates.com/renna/wp-content/uploads/2023/04/1-5-150x150.png 150w" sizes="(max-width: 202px) 100vw, 202px" />               </a>
                                     </div>
                                  </div>
                                  <div class="elementor-element elementor-element-9775c14 elementor-widget elementor-widget-image" data-id="9775c14" data-element_type="widget" data-widget_type="image.default">
                                     <div class="elementor-widget-container">
-                                       <a href="https://www.beautygates.com/renna/gcc-bundles/">
+                                       <a href="{{ url('website/en/pages/2')  }}">
                                        <img decoding="async" width="202" height="202" src="https://www.beautygates.com/renna/wp-content/uploads/2023/04/4.png" class="elementor-animation-grow attachment-large size-large wp-image-165" alt="" loading="lazy" srcset="https://www.beautygates.com/renna/wp-content/uploads/2023/04/4.png 202w, https://www.beautygates.com/renna/wp-content/uploads/2023/04/4-150x150.png 150w" sizes="(max-width: 202px) 100vw, 202px" />               </a>
                                     </div>
                                  </div>
@@ -140,13 +140,13 @@
                               <div class="elementor-widget-wrap elementor-element-populated">
                                  <div class="elementor-element elementor-element-90e5db3 elementor-widget elementor-widget-image" data-id="90e5db3" data-element_type="widget" data-widget_type="image.default">
                                     <div class="elementor-widget-container">
-                                       <a href="https://www.beautygates.com/renna/gcc-bundles/">
+                                       <a href="{{ url('website/en/pages/3')  }}">
                                        <img decoding="async" width="202" height="202" src="https://www.beautygates.com/renna/wp-content/uploads/2023/04/2-2.png" class="elementor-animation-grow attachment-large size-large wp-image-163" alt="" loading="lazy" srcset="https://www.beautygates.com/renna/wp-content/uploads/2023/04/2-2.png 202w, https://www.beautygates.com/renna/wp-content/uploads/2023/04/2-2-150x150.png 150w" sizes="(max-width: 202px) 100vw, 202px" />               </a>
                                     </div>
                                  </div>
                                  <div class="elementor-element elementor-element-3d21cdb elementor-widget elementor-widget-image" data-id="3d21cdb" data-element_type="widget" data-widget_type="image.default">
                                     <div class="elementor-widget-container">
-                                       <a href="https://www.beautygates.com/renna/gcc-bundles/">
+                                       <a href="{{ url('website/en/pages/4')  }}">
                                        <img decoding="async" width="202" height="202" src="https://www.beautygates.com/renna/wp-content/uploads/2023/04/5-1.png" class="elementor-animation-grow attachment-large size-large wp-image-167" alt="" loading="lazy" srcset="https://www.beautygates.com/renna/wp-content/uploads/2023/04/5-1.png 202w, https://www.beautygates.com/renna/wp-content/uploads/2023/04/5-1-150x150.png 150w" sizes="(max-width: 202px) 100vw, 202px" />               </a>
                                     </div>
                                  </div>
@@ -156,7 +156,7 @@
                               <div class="elementor-widget-wrap elementor-element-populated">
                                  <div class="elementor-element elementor-element-e89c7e6 elementor-widget elementor-widget-image" data-id="e89c7e6" data-element_type="widget" data-widget_type="image.default">
                                     <div class="elementor-widget-container">
-                                       <a href="https://www.beautygates.com/renna/gcc-bundles/">
+                                       <a href="{{ url('website/en/pages/5')  }}">
                                        <img decoding="async" width="202" height="202" src="https://www.beautygates.com/renna/wp-content/uploads/2023/04/3-3.png" class="elementor-animation-grow attachment-large size-large wp-image-164" alt="" loading="lazy" srcset="https://www.beautygates.com/renna/wp-content/uploads/2023/04/3-3.png 202w, https://www.beautygates.com/renna/wp-content/uploads/2023/04/3-3-150x150.png 150w" sizes="(max-width: 202px) 100vw, 202px" />               </a>
                                     </div>
                                  </div>
